@@ -1,149 +1,126 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Ahmed Ali",
-      "email": "ahmed@example.com",
-      "role": "admin",
-      "active": true
-    },
-    {
-      "id": 2,
-      "name": "Sara Hassan",
-      "email": "sara@example.com",
-      "role": "developer",
-      "active": true
-    },
-    {
-      "id": 3,
-      "name": "Omar Khalid",
-      "email": "omar@example.com",
-      "role": "developer",
-      "active": true
-    },
-    {
-      "id": 4,
-      "name": "Laila Noor",
-      "email": "laila@example.com",
-      "role": "tester",
-      "active": false
-    },
-    {
-      "name": "mohammed",
-      "email": "user3877@example.com",
-      "role": "tester",
-      "active": true,
-      "id": 5
-    },
-    {
-      "name": "mohammed",
-      "email": "user6132@example.com",
-      "role": "tester",
-      "active": true,
-      "id": 6
-    }
-  ],
-  "projects": [
-    {
-      "id": 1,
-      "name": "Mobile App",
-      "ownerId": 1,
-      "status": "active"
-    },
-    {
-      "id": 2,
-      "name": "Website",
-      "ownerId": 2,
-      "status": "active"
-    },
-    {
-      "id": 3,
-      "name": "Old Portal",
-      "ownerId": 1,
-      "status": "archived"
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Design login screen",
-      "projectId": 1,
-      "assigneeId": 2,
-      "priority": "high",
-      "status": "todo",
-      "done": false
-    },
-    {
-      "id": 2,
-      "title": "Build login API",
-      "projectId": 1,
-      "assigneeId": 3,
-      "priority": "high",
-      "status": "in_progress",
-      "done": false
-    },
-    {
-      "id": 3,
-      "title": "Write test cases",
-      "projectId": 1,
-      "assigneeId": 4,
-      "priority": "medium",
-      "status": "todo",
-      "done": false
-    },
-    {
-      "id": 4,
-      "title": "Create homepage",
-      "projectId": 2,
-      "assigneeId": 2,
-      "priority": "medium",
-      "status": "done",
-      "done": true
-    },
-    {
-      "id": 5,
-      "title": "Fix footer bug",
-      "projectId": 2,
-      "assigneeId": 3,
-      "priority": "low",
-      "status": "todo",
-      "done": false
-    },
-    {
-      "id": 6,
-      "title": "SEO optimization",
-      "projectId": 2,
-      "assigneeId": 2,
-      "priority": "low",
-      "status": "in_progress",
-      "done": false
-    },
-    {
-      "id": 7,
-      "title": "Migrate old data",
-      "projectId": 3,
-      "assigneeId": 1,
-      "priority": "high",
-      "status": "done",
-      "done": true
-    },
-    {
-      "id": 8,
-      "title": "Setup CI pipeline",
-      "projectId": 1,
-      "assigneeId": 3,
-      "priority": "medium",
-      "status": "todo",
-      "done": false
-    },
-    {
-      "title": "Write API tests (updated)",
-      "projectId": 1,
-      "assigneeId": 6,
-      "priority": "low",
-      "status": "done",
-      "done": true,
-      "id": 9
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "name": "Ahmed Ali",
+            "email": "ahmed@example.com",
+            "role": "admin",
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Sara Hassan",
+            "email": "sara@example.com",
+            "role": "developer",
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "Omar Khalid",
+            "email": "omar@example.com",
+            "role": "developer",
+            "active": true
+        },
+        {
+            "id": 4,
+            "name": "Laila Noor",
+            "email": "laila@example.com",
+            "role": "tester",
+            "active": false
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Mobile App",
+            "ownerId": 1,
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "name": "Website",
+            "ownerId": 2,
+            "status": "active"
+        },
+        {
+            "id": 3,
+            "name": "Old Portal",
+            "ownerId": 1,
+            "status": "archived"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Design login screen",
+            "projectId": 1,
+            "assigneeId": 2,
+            "priority": "high",
+            "status": "todo",
+            "done": false
+        },
+        {
+            "id": 2,
+            "title": "Build login API",
+            "projectId": 1,
+            "assigneeId": 3,
+            "priority": "high",
+            "status": "in_progress",
+            "done": false
+        },
+        {
+            "id": 3,
+            "title": "Write test cases",
+            "projectId": 1,
+            "assigneeId": 4,
+            "priority": "medium",
+            "status": "todo",
+            "done": false
+        },
+        {
+            "id": 4,
+            "title": "Create homepage",
+            "projectId": 2,
+            "assigneeId": 2,
+            "priority": "medium",
+            "status": "done",
+            "done": true
+        },
+        {
+            "id": 5,
+            "title": "Fix footer bug",
+            "projectId": 2,
+            "assigneeId": 3,
+            "priority": "low",
+            "status": "todo",
+            "done": false
+        },
+        {
+            "id": 6,
+            "title": "SEO optimization",
+            "projectId": 2,
+            "assigneeId": 2,
+            "priority": "low",
+            "status": "in_progress",
+            "done": false
+        },
+        {
+            "id": 7,
+            "title": "Migrate old data",
+            "projectId": 3,
+            "assigneeId": 1,
+            "priority": "high",
+            "status": "done",
+            "done": true
+        },
+        {
+            "id": 8,
+            "title": "Setup CI pipeline",
+            "projectId": 1,
+            "assigneeId": 3,
+            "priority": "medium",
+            "status": "todo",
+            "done": false
+        }
+    ]
 }
