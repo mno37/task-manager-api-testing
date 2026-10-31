@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --port 3002",
-    "reset": "copy /Y db.original.json db.json"
+    "reset": "copy /Y db.original.json db.json",
+    "test": "newman run \"postman/API Project.postman_collection.json\" -e \"postman/Local.postman_environment.json\" -r \"cli,htmlextra\" --reporter-htmlextra-export reports/report.html"
   },
   "keywords": [],
   "author": "",

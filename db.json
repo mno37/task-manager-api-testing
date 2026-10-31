@@ -34,6 +34,13 @@
       "role": "tester",
       "active": true,
       "id": 5
+    },
+    {
+      "name": "mohammed",
+      "email": "user6132@example.com",
+      "role": "tester",
+      "active": true,
+      "id": 6
     }
   ],
   "projects": [
@@ -128,6 +135,15 @@
       "priority": "medium",
       "status": "todo",
       "done": false
+    },
+    {
+      "title": "Write API tests (updated)",
+      "projectId": 1,
+      "assigneeId": 6,
+      "priority": "low",
+      "status": "done",
+      "done": true,
+      "id": 9
     }
   ]
 }
